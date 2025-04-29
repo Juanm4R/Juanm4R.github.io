@@ -13,6 +13,7 @@ li{
 a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 header{
     background-color: lightgrey;
@@ -23,6 +24,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2%;
 }
 header div{
     display: flex;
@@ -35,16 +37,15 @@ header div{
     justify-content: flex-start;
 }
 .servicios{
+    width: 50%;
     color: white;
     display: flex;
     padding: 5%;
     margin: auto;
     text-align: center;
     justify-content: space-between;
-    background-color: rgb(36, 36, 36);
-    border-radius: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: rgb(11, 82, 32);
+    border-radius: 15px;
 }
 #centrar{
     text-align: center;
@@ -67,4 +68,8 @@ footer{
 .footer-content li{
     margin: 0;
     padding: 0;
+}
+img{
+    width: 80%;
+    height: auto;
 }

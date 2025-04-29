@@ -5,85 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compañia</title>
-    <style>
-        body{
-    margin: auto;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-}
-nav ul{
-    display: flex;
-}
-li{
-    list-style: none;
-    margin: 0 20px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-header{
-    background-color: lightgrey;
-    padding-left : 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header div{
-    display: flex;
-    align-items: center;
-}
-.descripcion{
-    display: flex;
-    width: 80%;
-    margin: auto;
-    justify-content: flex-start;
-}
-.servicios{
-    color: white;
-    display: flex;
-    padding: 5%;
-    margin: auto;
-    text-align: center;
-    justify-content: space-between;
-    background-color: rgb(36, 36, 36);
-    border-radius: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-#centrar{
-    text-align: center;
-    font-size: 200%;
-}
-footer{
-    background-color: lightgrey;
-}
-#frase{
-    font-size: 350%;
-}
-.footer-content{
-    width: 50%;
-    display: flex;
-    margin: auto;
-    margin-top: 5%;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer-content li{
-    margin: 0;
-    padding: 0;
-}
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
         <div>
             <figure>
-                <img src="" alt="Logo">
+                <img src="img/pentalos.png" alt="Logo">
             </figure>
             <h1>Nombre compañia</h1>
         </div>
@@ -98,30 +27,30 @@ footer{
     <main>
         <section class="descripcion">
             <div>
-                <h2 id="frase">Frase Copada</h2>
+                <h2 id="frase">Inspirando a las <br>nuevas generaciones</h2>
                 <p>Descripción breve de la compañia.</p>
-                <p>Descripción breve de la compañia.</p>
-            </div>
-            <div>
-                <figure>
-                    <img src="" alt="Imagen de la compañia">
-                </figure>
             </div>
         </section>
         <section id="servicios">
             <h2 id="centrar">Servicios</h2>
             <div class="servicios">
                 <article>
-                    <h3>Servicio 1</h3>
-                    <p>Descripción del servicio 1.</p>
+                    <h3>Equipo</h3>
+                    <figure>
+                        <img src="img/equipo.png" alt="Equipo">
+                    </figure>
                 </article>
                 <article>
-                    <h3>Servicio 2</h3>
-                    <p>Descripción del servicio 2.</p>
+                    <h3>Inversion</h3>
+                    <figure>
+                        <img src="img/inversion.png" alt="Inversion">
+                    </figure>
                 </article>
                 <article>
-                    <h3>Servicio 3</h3>
-                    <p>Descripción del servicio 3.</p>
+                    <h3>Proyectos</h3>
+                    <figure>
+                        <img src="img/proyectos.png" alt="Proyectos">
+                    </figure>
                 </article>
             </div>
         </section>
@@ -143,7 +72,8 @@ footer{
             </div>
         </div>
         <div>
-            <p style="text-align: center; margin-top: 2%;">&copy; 2025 Nombre compañia. Todos los derechos reservados.</p>
+            <p style="text-align: center; margin-top: 2%;">&copy; 2025 Nombre compañia. Todos los derechos reservados.
+            </p>
         </div>
     </footer>
 </body>
