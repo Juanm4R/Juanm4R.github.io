@@ -7,7 +7,7 @@ body {
 
 /* Fondo */
 .background {
-    background-image: url('../img/hero.jpg');
+    background-image: url('/img/hero.jpg');
     background-size: cover;
     background-position: center 0;
     position: fixed;
