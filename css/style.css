@@ -104,7 +104,10 @@ h1 {
     }
 
     ul li {
-        margin: 5px 0;
+        background: linear-gradient(to right, #ffffff10, #00000011);
+        border-radius: 5px;
+        margin-right: 5px;
+        padding: 10px 15px;
     }
 
     h1 {
@@ -116,11 +119,6 @@ h1 {
 
     ul li a {
         font-size: 12px;
-    }
-
-    ul li {
-        padding: 10px 15px;
-        margin: 0;
     }
     .container {
     padding-left: 20px;
