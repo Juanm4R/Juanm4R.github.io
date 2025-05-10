@@ -1,83 +1,93 @@
-body{
-    margin: auto;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-}
-nav ul{
-    display: flex;
-}
-li{
-    list-style: none;
-    margin: 0 20px;
-}
-li :hover{
-    background-color: rgb(11, 82, 32);
-    color: white;
-    border-radius: 5px;
-    padding: 3px;
-    transition: background-color 0.3s ease;
-}
-a{
-    
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-header{
-    background-color: lightgrey;
-    padding-left : 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2%;
-}
-header div{
-    display: flex;
-    align-items: center;
-}
-.descripcion{
-    display: flex;
-    width: 80%;
-    margin: auto;
-    justify-content: flex-start;
-}
-.servicios{
-    width: 50%;
-    color: white;
-    display: flex;
-    padding: 5%;
-    margin: auto;
-    text-align: center;
-    justify-content: space-between;
-    background-color: rgb(11, 82, 32);
-    border-radius: 15px;
-}
-#centrar{
-    text-align: center;
-    font-size: 200%;
-}
-footer{
-    background-color: lightgrey;
-}
-#frase{
-    font-size: 350%;
-}
-.footer-content{
-    width: 50%;
-    display: flex;
-    margin: auto;
-    margin-top: 5%;
-    justify-content: space-around;
-    align-items: center;
-}
-.footer-content li{
+/* Reset y fuentes */
+body {
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif;
 }
-img{
-    width: 80%;
-    height: auto;
+
+/* Fondo */
+.background {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 200vh;
+    z-index: -2;
+}
+
+/* Header */
+header {
+    position: relative;
+    z-index: 1;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+/* Navegación */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(230, 222, 222);
+    font-size: 15px;
+    display: block;
+}
+
+/* Efecto hover en el menú */
+ul li:hover {
+    background-color: rgba(0, 0, 0, 0.178);
+    transition: 300ms;
+    border-radius: 5px;
+}
+
+/* Título principal */
+h1 {
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+/* Animación fade-in para el h1 */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
